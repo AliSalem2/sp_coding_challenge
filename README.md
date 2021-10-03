@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 
-## Coding challenge made by Smart pricer
-## Find the code for the challenge inside "Notebooks" folder and find the solutions inside the "output" folder
-=======
 # Challenge for Data analyst position by Smart pricer
 
 
@@ -24,4 +20,4 @@ estimate how long the exercise took you.
 # Solution: 
 
 Please find the code for the challenge inside "Challenge-Smart_pricer" notebook and find the solutions with the required CSVs inside the "output" folder. 
->>>>>>> f608d4640fecbb6dfb2960b6c9848f58238ec23a
+took around 65 mins
