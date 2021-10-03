@@ -1,74 +1,21 @@
-# Data analysis
-- Document here the project: sp_coding_challenge
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+# Challenge for Data analyst position by Smart pricer
 
-Please document the project the better you can.
 
-# Startup the project
+Coding Challenge
+Please use python and pandas to solve the following exercises. Attached you will find a
+csv file containing ticket data for an imaginary event location. Each row represents a
+sold ticket. Please read in this file and…
 
-The initial setup.
+1. Give an overview of the unique values for every column including their
+corresponding revenue and the amount of tickets sold. Store the results as an
+individual csv file for each column in a folder named “output”.
 
-Create virtualenv and install the project:
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv ~/venv ; source ~/venv/bin/activate ;\
-    pip install pip -U; pip install -r requirements.txt
-```
+2. Give an overview of the revenue generated per date. Sorted in ascending order.
+Store the results as a csv file named “fingerprint.csv” in a folder named “output”.
+Please send back the output of this exercise, the code you have used and a rough
+estimate how long the exercise took you.
 
-Unittest test:
-```bash
-make clean install test
-```
 
-Check for sp_coding_challenge in gitlab.com/{group}.
-If your project is not set please add it:
+# Solution: 
 
-- Create a new project on `gitlab.com/{group}/sp_coding_challenge`
-- Then populate it:
-
-```bash
-##   e.g. if group is "{group}" and project_name is "sp_coding_challenge"
-git remote add origin git@github.com:{group}/sp_coding_challenge.git
-git push -u origin master
-git push -u origin --tags
-```
-
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-sp_coding_challenge-run
-```
-
-# Install
-
-Go to `https://github.com/{group}/sp_coding_challenge` to see the project, manage issues,
-setup you ssh public key, ...
-
-Create a python3 virtualenv and activate it:
-
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
-```
-
-Clone the project and install it:
-
-```bash
-git clone git@github.com:{group}/sp_coding_challenge.git
-cd sp_coding_challenge
-pip install -r requirements.txt
-make clean install test                # install and test
-```
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-sp_coding_challenge-run
-```
+Please find the code for the challenge inside "Challenge-Smart_pricer" notebook and find the solutions with the required CSVs inside the "output" folder. 
